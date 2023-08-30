@@ -1,0 +1,22 @@
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="row">
+           
+    <div class="col-md-6 columns">
+       
+      
+      <img src="{{ url_for('static', filename='images/lap.webp') }}" >
+       
+    </div>
+    <div class="col-md-6 columns">
+        
+      <img  src="{{ url_for('static', filename='images/rolex.jpg') }}">
+    </div>
+    
+</div>
+
+{% endblock %}
